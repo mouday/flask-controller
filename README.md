@@ -5,8 +5,8 @@
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/flask-controller)
 ![PyPI - License](https://img.shields.io/pypi/l/flask-controller)
 
-- Github: [https://github.com/mouday/cator](https://github.com/mouday/flask-controller)
-- Pypi: [https://pypi.org/project/cator](https://pypi.org/project/flask-controller)
+- Github: [https://github.com/mouday/flask-controller](https://github.com/mouday/flask-controller)
+- Pypi: [https://pypi.org/project/flask-controller](https://pypi.org/project/flask-controller)
 
 ## 简介
 
@@ -98,10 +98,10 @@ register.register_package('flask_app.controllers')
 
 
 注册结果
-``
+```
 Map([
  <Rule '/admin/login/index' (OPTIONS, GET, HEAD, POST) -> admin.login.index>,
  <Rule '/index/index' (OPTIONS, GET, HEAD, POST) -> index.index>,
  <Rule '/user/user_name/<name>/<age>' (OPTIONS, GET, HEAD, POST) -> user.user_name>
 ])
-``
+```
